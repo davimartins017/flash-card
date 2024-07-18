@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #F4D04E;
+    font-size: 1rem;
+    font-family: "Figtree";
+    font-weight: 500;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    flex-direction: column;
+
+}
+.card{
+    min-width: 327px;
+    max-width: 384px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 10px 11px 1px black;
+}
+
+.card:hover{
+    box-shadow: 20px 20px 1px black;
+    transition: 0.3s;
+}
+
+.card__subtitle > h3{
+    background-color: #F4D04E;
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 135px;
+    
+    
+}
+.card__subtitle > p{
+    padding: 10px 0px;
+}
+
+.card__content > h1{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.card__content > p{
+    line-height: 22px;
+    padding: 10px 0px;
+    color: grey;
+}
+
+.card__image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.rodape{
+    display: flex;
+    padding: 10px 0px;
+}
+.rodape > p{
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.credits{
+    font-weight: bolder;
+    margin: 25px;
+}
